@@ -4,28 +4,44 @@
 }
 
 header{    
-width: 70%;  
-display: flex;
-justify-content: space-between;  
-margin: auto;    
-margin-top: 25px;
+padding: 30px 0;
 }
-.logo{    
+.header_wrapper{
+    width: 90%;  
+    display: flex;
+    justify-content: space-between;  
+    margin: auto;    
+    align-items: center;
+}
+.logo{ 
+    width: 20%;   
 
 }
 .logo img{
 
 }
-.unsub{
-    color: #97999b;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+.menu{
+    width: 50%;
+    
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+color: #3a3a3a;
+text-decoration: none;
+margin-left: 30px;
+text-transform: uppercase;
 }
 
 .banner{
     position: relative;
-    margin-top: 25px;
-
+    /* margin-top: 25px; */
 }
 .banner img{
     width: 100%;
@@ -37,6 +53,7 @@ margin-top: 25px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .brand h1{
     font-size: 50px;
@@ -54,14 +71,9 @@ margin-top: 25px;
 
 }
 
-.button {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .brand button{
-        padding: 15px 40px;
+        padding: 15px 30px;
         background: #fb6e52;
         border: 1px solid whitesmoke ;
         color: aliceblue;
@@ -69,30 +81,31 @@ margin-top: 25px;
         font-size: 18px;
         text-align: center;
         border-radius: 7px;
-        display: block;
-        align-items: center;
         font-family: 'Roboto', sans-serif;
         
 }
 
+
 .content1{
-    width: 80%;
-    margin: auto;
+    /* width: 80%;
+    margin: auto; */
+    /* padding: 50px 0; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.item{
+.content1_item{
+    width: 31%;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 
 }
-.item img{
+.content1_item img{
     width: auto;
     
 }
-.item h1{
+.content1_item h1{
     font-size: 33px;
     text-align: left;
     color: #626262;
@@ -102,7 +115,7 @@ margin-top: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.item p{
+.content1_item p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     text-align: justify;
@@ -112,34 +125,85 @@ margin-top: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-.message{
+.service_message{
     width: 60%;
-    color: #fb6e52;
     margin: auto;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: 'Roboto', sans-serif;
-}
-.content2{
-    background-color: #f9f9f9;
-    
-}
-.item2{
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.item2 h1{
-    color: #fb6e52;
-    font-family: 'Roboto', sans-serif;
 }
 
+.service_message h1{
+    width: 80%;
+    color: #fb6e52;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+.main_service{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+    
+}
+.main_service_item{
+    width: 31%;
+    justify-content: space-between;
+    text-align: center;
+}
+.main_service_item img{
+    width: 100%;
+
+}
+
+.main_service_item h1{
+    color: #fb6e52;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+
+}
+.main_service_item p{
+
+    margin-top: 20px;
+}
+.blog{
+    
+   
+   
+
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    color: #797c82;
+    font-size: 32px;
+    padding: 40px;
+    text-transform: capitalize;
+}
+.web_service{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.web_service_item{
+    width: 45%;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.web_service_item img{
+    width: 100%;
+}
+
+.web_service_item h1{margin: 29px 0;}
+
+.web_service_item p{
+
+margin: 37px 0;
+}
 footer{
     background-color: #292c34;
     width: 100%;
